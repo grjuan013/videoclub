@@ -11,7 +11,7 @@
 
 
                 <form action="/catalog/create" method="POST">
-
+                    {{method_field('POST')}}
                     {{ csrf_field() }}
 
                     <div class="form-group">
